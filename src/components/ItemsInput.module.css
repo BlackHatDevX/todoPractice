@@ -1,0 +1,9 @@
+.inputContainer {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 5px;
+}
