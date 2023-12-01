@@ -6,6 +6,7 @@ const ItemsInput = () => {
   const { addData } = useContext(Database);
   const textRef = useRef();
   const dateRef = useRef();
+  // it grabs data from useRef and grabs the addData function from context api i.e database.jsx then initialize the addData function which dispatches event of ADD_ITEM and then later on clears the inital values of input boxes
   const handleSubmit = () => {
     const newData = {
       text: textRef.current.value,
